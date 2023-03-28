@@ -1,4 +1,4 @@
-> **Catatan:** Ini adalah repositori turunan _(fork)_ dari repositori asli ``sinoridha/quran-indonesia-db``. Repositori ini sudah di-_port_ ke MySQL dan PostgreSQL (tahap awal). Lihat repositori asli di tautan: [https://github.com/sinoridha/quran-indonesia-db](https://github.com/sinoridha/quran-indonesia-db)
+> **Catatan:** Ini adalah repositori turunan _(fork)_ dari repositori asli ``sinoridha/quran-indonesia-db``. Repositori ini sudah disesuaikan _(porting)_ dengan MySQL dan PostgreSQL (tahap awal). Lihat repositori asli di tautan: [https://github.com/sinoridha/quran-indonesia-db](https://github.com/sinoridha/quran-indonesia-db)
 
 # quran-indonesia-db
 SQL script Al Quran with Indonesia transalation.
