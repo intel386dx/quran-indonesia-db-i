@@ -11,5 +11,5 @@ Refrensi dabase AlQuran ini adalah litequran.net yang mana tertulis di site ters
 Direct download : quran-indonesia.sql - https://drive.google.com/file/d/1QOZBsllfELIhoSJ8pUpeK18WTHe0Jfe2/view?usp=sharing
 
 ## Daftar Isi
-1. [Unduh _database_ SQLite siap pakai](./sqlite/quran-indonesia-sqlite.db)
+1. [Unduh _database_ SQLite siap pakai](./db/sqlite/quran-indonesia-sqlite.db)
 2. [Unduh skrip SQL](./sql)
