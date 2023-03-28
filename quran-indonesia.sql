@@ -1,4 +1,5 @@
-CREATE TABLE quran_id( id INTEGER PRIMARY KEY, suraId INTEGER, verseID INTEGER, ayahText TEXT, indoText TEXT, readText TEXT);
+DROP TABLE IF EXISTS quran_id;
+CREATE TABLE quran_id( id INTEGER PRIMARY KEY, suraId INTEGER, verseID INTEGER, ayahText VARCHAR(65536), indoText VARCHAR(65536), readText VARCHAR(65536));
 INSERT INTO quran_id (id, suraId, verseID, ayahText, indoText, readText ) VALUES (0,1,1,"بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ", "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang.", "bismillāhir-raḥmānir-raḥīm");
 INSERT INTO quran_id (id, suraId, verseID, ayahText, indoText, readText ) VALUES (1,1,2,"اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ", "Segala puji bagi Allah, Tuhan seluruh alam,", "al-ḥamdu lillāhi rabbil-'ālamīn");
 INSERT INTO quran_id (id, suraId, verseID, ayahText, indoText, readText ) VALUES (2,1,3,"الرَّحْمٰنِ الرَّحِيْمِۙ", "Yang Maha Pengasih, Maha Penyayang,", "ar-raḥmānir-raḥīm");
