@@ -9,7 +9,7 @@ Referensi: http://litequran.net/
 */
 
 DROP TABLE IF EXISTS quran_id;
-CREATE TABLE quran_id (id SERIAL PRIMARY KEY, suraId INTEGER, verseID INTEGER, ayahText TEXT, indoText TEXT, readText TEXT);
+CREATE TABLE quran_id (id SERIAL PRIMARY KEY, suraId INTEGER, verseID INTEGER, ayahText TEXT, indoText TEXT, latinText TEXT);
 INSERT INTO quran_id (suraId, verseID, ayahText, indoText, latinText ) VALUES (1,1,"بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ", "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang.", "bismillāhir-raḥmānir-raḥīm");
 INSERT INTO quran_id (suraId, verseID, ayahText, indoText, latinText ) VALUES (1,2,"اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ", "Segala puji bagi Allah, Tuhan seluruh alam,", "al-ḥamdu lillāhi rabbil-'ālamīn");
 INSERT INTO quran_id (suraId, verseID, ayahText, indoText, latinText ) VALUES (1,3,"الرَّحْمٰنِ الرَّحِيْمِۙ", "Yang Maha Pengasih, Maha Penyayang,", "ar-raḥmānir-raḥīm");
