@@ -15,7 +15,7 @@ Direct download : quran-indonesia.sql - https://drive.google.com/file/d/1QOZBsll
 ## 2. Contents
 
 1. [Download the ready-to-use SQLite database](./db/sqlite/quran-indonesia-sqlite.db)
-2. [Download the SQL scripts](./sql):
+2. [Download the SQL scripts](./sql/README.en-US.md):
 [MySQL](./sql/mysql/quran-indonesia-my.sql), 
 [PostgreSQL](./sql/postgresql/quran-indonesia-postgres.sql), 
 and [SQLite](./sql/sqlite/quran-indonesia-sqlite.sql)
